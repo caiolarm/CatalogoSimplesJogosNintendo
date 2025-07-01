@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  background-color: #e60012;
+  color: white;
+  
+  padding: 20px 0;
+  text-align: center;
+}
+
+
+nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+main {
+  padding: 20px;
+}
+section {
+  margin-bottom: 40px;
+}
+
+.catalogo {
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 20px;
+}
+
+.jogo {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 300px;
+
+  padding: 10px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+
+.jogo img {
+  width: 100%;
+
+  height: 200px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+}
